@@ -18,4 +18,7 @@ void setName(String name) {
 void setsuperPower(String superPower) {
 	this.superpower = superpower;
 }
+public String toString () {
+return name + " has mad " + superpower + " skills.";	
+}
 }
